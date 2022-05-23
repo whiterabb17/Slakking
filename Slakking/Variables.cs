@@ -19,10 +19,10 @@ namespace Slakking
 
     internal class Commands
     {
-        internal string Command1 = "Command1";
-        internal string Command2 = "Command2";
-        internal string Command3 = "Command3";
-        internal string Command4 = "Command4";
+        internal string Command1 { get; set; }
+        internal string Command2 { get; set; }
+        internal string Command3 { get; set; }
+        internal string Command4 { get; set; }
     }
 
     internal class Functions
