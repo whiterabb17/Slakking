@@ -29,10 +29,3 @@ Provide the API token in the app.config.
 </configuration>
 ```
 
-![grab-landing-page](https://github.com/Justbeingjustin/slack-bot-csharp/blob/master/Images/Unassign.gif)
-
-## Contributing
-
-Pull requests are welcome. 
-
-For large changes, please open an issue first to discuss what you would like to add.
