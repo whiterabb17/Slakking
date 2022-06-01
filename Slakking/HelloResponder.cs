@@ -41,13 +41,22 @@ namespace Slakking
             {
                 foreach (Commands cmd in CommandHolder.CommandList)
                 {
-                    if (_[1] == cmd.Command1)
+                    switch(_[1])
                     {
-                        foreach (string file in Functions.getFiles())
+                        case cmd.Command1:
                         {
-                            responder += file + Environment.NewLine;
+                            foreach (string file in Functions.getFiles())
+                            {
+                                responder += file + Environment.NewLine;
+                            }
+                            builder.Append(responder);
                         }
-                        builder.Append(responder);
+                        case cmd.Command1:
+                        {
+                        }
+                        case cmd.Command3:
+                        {
+                        }
                     }
                 }
             }
